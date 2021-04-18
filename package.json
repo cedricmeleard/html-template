@@ -2,14 +2,19 @@
   "name": "html-template",
   "version": "1.0.0",
   "description": "simple html template",
-  "main": "index.js",
+  "main": "index.ts",
   "scripts": {
-    "start": "parcel index.html"
+    "start": "parcel serve index.html"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "sass": "^1.32.8"
+    "@parcel/transformer-sass": "2.0.0-beta.2",
+    "parcel": "^2.0.0-beta.2",
+    "posthtml-include": "^1.7.0"
+  },
+  "dependencies": {
+    "posthtml-doctype": "^1.1.1"
   }
 }

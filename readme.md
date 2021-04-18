@@ -4,12 +4,13 @@ Simple HTML template page
 
 ## HOW TO
 
-install parcel globaly if not already
+install parcel globaly if not already, this project use Yarn  
+see https://v2.parceljs.org/ for more infos about parcel
 
-run commands
+then, run commands
 
 ```console
-npm install
+yarn
 
-npm start
+yarn start
 ```

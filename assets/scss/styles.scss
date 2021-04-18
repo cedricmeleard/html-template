@@ -1,5 +1,35 @@
-* {
-    box-sizing: border-box;
-    padding: 0;
-    margin: 0;
+@import "./abstracts/reset";
+@import "./abstracts/vars";
+
+@import "./components/header";
+
+body {
+  font-family: $base-font-family;
+  font-size: 16px;
+  overflow-x: hidden;
+}
+
+section {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  article {
+    max-width: 80%;
+    display: flex;
+    flex-direction: column;
+
+    h1 {
+      font-family: $title-font-family;
+      font-size: 3em;
+      line-height: 0.9;
+      margin-bottom: 15px;
+      max-width: 70%;
+    }
+
+    p {
+        line-height: 1.4;
+    }
+  }
 }
